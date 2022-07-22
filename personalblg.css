@@ -1,0 +1,79 @@
+header{
+    background-color: rgba(96, 122, 177, 0.726);
+    border-radius: 5px ;
+    width:auto;
+    height: 100px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    letter-spacing: 4px;
+}
+
+*{
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif);
+}
+
+
+.contenedor{
+    width: 70%;
+    display:grid ;
+    grid-template-columns: 35% 35%;
+    grid-template-rows: auto;
+    column gap:0%;
+
+}
+
+.caja1{
+    text-align: center;
+    grid-row: 1;
+    grid-column: 1/span2;
+    
+}
+
+
+.caja3{
+    grid-row: 4;
+    grid-column: 1;
+}
+
+.caja4{
+    grid-row: 4;
+    grid-column: 2;
+}
+
+.caja5{
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.caja6{
+    grid-row: 3;
+    grid-column: 2;
+}
+
+aside{
+    width:30%;
+    height:auto; 
+    background-color: rgba(179, 189, 142, 0.74) ; 
+    float: right;
+    margin-top: 0%;
+    margin-block-start: -155%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    padding: 5px;
+
+}
+
+
+footer{
+    background-color: black;
+    color: beige;
+    text-align: center;
+    padding: 2rem 0; 
+    margin-block-end: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
